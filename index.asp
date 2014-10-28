@@ -11,11 +11,8 @@ Response.CacheControl = "no-cache"
 <!DOCTYPE html PUBLIC "-//W3C//Dtd html 4.01 transitional//EN" "http://www.w3c.org/tr/1999/REC-html401-19991224/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>校无忧人事工资系统_校无忧科技_Www.Xiao5u.Com</title>
+<title>员工工资信息管理系统</title>
 <meta http-equiv=Content-type content="text/html; charset=gb2312">
-<meta name="keywords" content="校无忧人事工资系统">
-<meta name="description" content="校无忧人事工资系统">
-<meta name="copyright" content="校无忧科技_Www.Xiao5u.Com">
 <link href="images/css.css" rel="stylesheet" type="text/css">
 <!--#include file=images/ini.sys -->
 <script language=javascript>
@@ -51,7 +48,7 @@ function check(){
     <td vAlign=top bgColor=#ffffff>
       <table cellSpacing=0 cellPadding=0 width="100%" border=0>
         <tbody>
-        <tr><td width=460 background=images/top.gif height=54 class="bt">校无忧工资查询</td>
+        <tr><td width=460 background=images/top.gif height=54 class="bt">工资查询</td>
         </tr>
         <tr>
           <td bgColor=#FFFFFF height=150>

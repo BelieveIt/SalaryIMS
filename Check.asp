@@ -26,7 +26,7 @@ else
   set rs=server.createobject("adodb.recordset") 
   rs.open sql,conn,1,3
     if rs.eof then
-       response.write"<SCRIPT language=JavaScript>alert('对不起，工号或身份证号不匹配!\n \n请检查，返回重新输入！\n \n校无忧科技-友情提示');"
+       response.write"<SCRIPT language=JavaScript>alert('对不起，工号或身份证号不匹配!\n \n请检查，返回重新输入！');"
        response.write"location.href='index.asp'</SCRIPT>"
     else
        session("id")=rs("id")

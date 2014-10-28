@@ -11,14 +11,14 @@ rs("Pws")=Request("Pws1")
  rs.update 		'更新数据表记录
  rs.close
 set rs=nothing
- response.write"<SCRIPT language=JavaScript>alert('密码修改成功，请重新登录！\n \n校无忧科技-Xiao5u.Com');"
+ response.write"<SCRIPT language=JavaScript>alert('密码修改成功，请重新登录！');"
  response.write"location.href='Logout.asp'</SCRIPT>"
 end if
 %>
 <!DOCTYPE html PUBLIC "-//W3C//Dtd html 4.01 transitional//EN" "http://www.w3c.org/tr/1999/REC-html401-19991224/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>校无忧工资查询_校无忧科技_Www.Xiao5u.Com</title>
+<title>员工工资信息管理系统</title>
 <meta http-equiv=Content-type content="text/html; charset=gb2312">
 <link href="images/css.css" rel="stylesheet" type="text/css">
 <script language="Javascript">
@@ -62,7 +62,7 @@ function check()
     <td vAlign=top bgColor=#ffffff>
       <table cellSpacing=0 cellPadding=0 width="100%" border=0>
         <tbody>
-        <tr><td width=460 background=images/top.gif height=54 class="bt">校无忧工资查询</td></tr>
+        <tr><td width=460 background=images/top.gif height=54 class="bt">工资查询</td></tr>
         <tr>
           <td bgColor=#FFFFFF height=150>
             <table height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
@@ -118,7 +118,7 @@ if not rs.eof Then
 				   </table>
 <%
 else
-  response.write"<SCRIPT language=JavaScript>alert('对不起，工号或身份证号不匹配!\n \n请检查，返回重新输入！\n \n校无忧科技-友情提示');"
+  response.write"<SCRIPT language=JavaScript>alert('对不起，工号或身份证号不匹配!\n \n请检查，返回重新输入！');"
   response.write"location.href='index.asp'</SCRIPT>"
 end if
 end if
@@ -191,9 +191,6 @@ end if
 		   </table>
 		 </td>
 		</tr>
-        <tr>
-          <td align="center" bgColor="#9CBFE5" height=25>2008-2013 &copy;校无忧科技  All Rights Reserved</td>
-        </tr>
 		</tbody>
 	  </table>
 	</td>

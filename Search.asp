@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//Dtd html 4.01 transitional//EN" "http://www.w3c.org/tr/1999/REC-html401-19991224/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>校无忧工资查询_校无忧科技_Www.Xiao5u.Com</title>
+<title>员工工资信息管理系统</title>
 <meta http-equiv=Content-type content="text/html; charset=gb2312">
 <link href="images/css.css" rel="stylesheet" type="text/css">
 <!--#include file=images/ini.sys -->
@@ -15,7 +15,7 @@
     <td vAlign=top bgColor=#ffffff>
       <table cellSpacing=0 cellPadding=0 width="100%" border=0>
         <tbody>
-        <tr><td width=460 background=images/top.gif height=54 class="bt">校无忧工资查询</td></tr>
+        <tr><td width=460 background=images/top.gif height=54 class="bt">工资查询</td></tr>
         <tr>
           <td bgColor=#FFFFFF height=150>
             <table height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
@@ -136,9 +136,6 @@ set rs=nothing
 		   </table>
 		 </td>
 		</tr>
-        <tr>
-          <td align="center" bgColor="#9CBFE5" height=25>2008-2013 &copy;校无忧科技  All Rights Reserved</td>
-        </tr>
 		</tbody>
 	  </table>
 	</td>

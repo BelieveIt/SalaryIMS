@@ -10,7 +10,7 @@ session("verifycode")=rndnum
 <!DOCtYPE html PUBLIC "-//W3C//Dtd html 4.01 transitional//EN" "http://www.w3c.org/tr/1999/REC-html401-19991224/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>校无忧人事工资系统</title>
+<title>员工工资信息管理系统</title>
 <meta http-equiv=Content-type content="text/html; charset=gb2312">
 <STYLE type=text/css> 
 body {FONt-SIZE: 12px; BACKGROUND: #E8F2FB; COLOR: #333; MARGIN: 80px;}
@@ -49,7 +49,7 @@ return true;
     <td vAlign=top bgColor=#ffffff>
       <table cellSpacing=0 cellPadding=0 width="100%" border=0>
         <tbody>
-        <tr><td width=460 background=images/login_top.jpg height=54 class="bt">校无忧人事工资系统后台</td></tr>
+        <tr><td width=460 background=images/login_top.jpg height=54 class="bt">员工工资信息管理系统后台</td></tr>
         <tr>
           <td bgColor=#FFFFFF height=150>
             <table height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
@@ -79,9 +79,7 @@ return true;
 		   </table>
 		 </td>
 		</tr>
-        <tr>
-          <td align=middle bgColor=#9CBFE5 height=25>2008-2013 &copy; <a href="http://www.xiao5u.com/" target="_blank">校无忧科技</a> All Rights Reserved</td>
-        </tr>
+
 		</tbody>
 	  </table>
 	</td>

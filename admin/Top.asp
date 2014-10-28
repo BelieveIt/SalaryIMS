@@ -22,7 +22,7 @@ setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString
   </tr>
   <tr style="background-image:url(images/top_bg.gif); height:16px">    
     <td width="40%" style="color:#000000;">欢迎您<b><%=session("admin_name")%></b>! 您现在登录的是<%=sysConfig%>! </td>
-    <td width="60%" align="right" style="color:#000000;"><a href="http://www.xiao5u.cn/" target="_blank">校无忧科技</a> <a href="http://www.xiao5u.com/" target="_blank">校无忧软件</a> <a href="http://www.xiao5u.net/" target="_blank">校无忧网络</a> <a href="logout.asp" target="_parent">退出系统</a></td>
+    <td width="60%" align="right" style="color:#000000;"> <a href="logout.asp" target="_parent">退出系统</a></td>
   </tr>
 </table>
 </body>

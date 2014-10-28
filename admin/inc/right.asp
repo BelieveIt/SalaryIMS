@@ -5,5 +5,5 @@ response.write "<script language=JavaScript>" & chr(13) & "alert('您还未登录或者
 response.end
 end if
 
-sysConfig="校无忧人事工资系统"
+sysConfig="员工工资信息管理系统"
 %>

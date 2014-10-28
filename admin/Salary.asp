@@ -51,7 +51,7 @@ end if
 %>
 <html>
 <head>
-<title>校无忧管理系统</title>
+<title>员工工资信息管理系统</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link href="images/main.css" rel="stylesheet" type="text/css">
 <script language=JavaScript type=text/JavaScript>
